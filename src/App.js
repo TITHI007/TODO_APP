@@ -38,8 +38,8 @@ function App() {
 const{colorMode , toggleColorMode} =useColorMode();
 
   return(
-    <VStack p={4}>//padding of 16 px 
-      <IconButton 
+    <VStack p={4}>{/* padding of 16 px  */}
+       <IconButton 
         icon={ colorMode==='light' ? <FaSun/> : <FaMoon/>} 
         isRound="true" 
         size="lg" 
