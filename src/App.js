@@ -7,16 +7,16 @@ import {FaSun,FaMoon} from 'react-icons/fa';
 import {useState, useEffect} from 'react';
 
 function App() {
-  const initialTodos = [
-    {
-        id: 1,
-        body: 'complete chakra',
-    },
-    {
-        id: 2,
-        body: 'complete todo',
-    },
- ];
+//   const initialTodos = [
+//     {
+//         id: 1,
+//         body: 'complete chakra',
+//     },
+//     {
+//         id: 2,
+//         body: 'complete todo',
+//     },
+//  ];
 
  const savedtodo = JSON.parse(localStorage.getItem('todos'));
  const [todos,setTodos]=useState(savedtodo || []  );
