@@ -1,5 +1,5 @@
 import './App.css';
-import { Heading, Stack } from '@chakra-ui/react';
+import { Heading } from '@chakra-ui/react';
 import  Todolist from './components/Todolist';
 import  Addtodo from './components/Addtodo';
 import {VStack , IconButton, useColorMode} from '@chakra-ui/react';
